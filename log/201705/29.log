@@ -1,0 +1,8 @@
+[ 2017-05-29T16:00:08+08:00 ] 127.0.0.1 127.0.0.1 DELETE /api/v1/product/34
+[ log ] z.cn/api/v1/product/34 [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,478.07kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 34 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] DELETE FROM `product`    WHERE  `id` = 34 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
